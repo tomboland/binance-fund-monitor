@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24277412-1E7B-46CA-B616-E6BE31A2F0C9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "binance-fund-monitor", "src\binance-fund-monitor\binance-fund-monitor.fsproj", "{8758BECB-0D94-47F4-8304-BA6345B5F03E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D0F11FAB-CD4E-405D-BD38-2167DE868EBA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "binance-fund-monitor.Tests", "test\binance-fund-monitor.Tests\binance-fund-monitor.Tests.fsproj", "{13062CE9-9ED1-4261-B0A7-F51729498BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Debug|x64.Build.0 = Debug|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Debug|x86.Build.0 = Debug|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Release|x64.ActiveCfg = Release|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Release|x64.Build.0 = Release|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Release|x86.ActiveCfg = Release|Any CPU
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E}.Release|x86.Build.0 = Release|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Debug|x64.Build.0 = Debug|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Debug|x86.Build.0 = Debug|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Release|x64.ActiveCfg = Release|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Release|x64.Build.0 = Release|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8758BECB-0D94-47F4-8304-BA6345B5F03E} = {24277412-1E7B-46CA-B616-E6BE31A2F0C9}
+		{13062CE9-9ED1-4261-B0A7-F51729498BAB} = {D0F11FAB-CD4E-405D-BD38-2167DE868EBA}
+	EndGlobalSection
+EndGlobal
